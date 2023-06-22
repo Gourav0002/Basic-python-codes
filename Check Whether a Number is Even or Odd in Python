@@ -1,0 +1,13 @@
+n = int(input("Enter a number"))
+if (n>=0):
+  if n == 0:
+    print("The number is zero")
+  elif (n%2==0):
+    print("The number is greater than zero and is even")
+  else:
+    print("the number is greater than zero but odd")
+else:
+  if(n%2!=0):
+    print("the number is odd and negative")
+  else:
+    print("the number is even and negative")
